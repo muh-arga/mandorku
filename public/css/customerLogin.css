@@ -1,0 +1,94 @@
+.customerLogin {
+  padding: 100px 350px;
+  background-color: #eafbff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.customerLogin .logo h3 {
+    color: #00788a;
+    font-weight: bolder;
+}
+
+.customerLogin .container {
+  background-color: #00bec444;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.customerLogin .loginNav a{
+    background-color: #00788a;
+    color: #fff;
+}
+
+.customerLogin .loginNav a.active {
+    background-color: #008ba0;
+}
+
+.customerLogin .loginNav a:hover{
+    cursor: pointer;
+    background-color: #008ba0;
+}
+
+.customerLogin .loginNav a:nth-child(1){
+    border-right: 2px solid #00bec444;
+}
+
+.customerLogin .form{
+    padding: 30px 100px;
+  }
+
+.customerLogin h5,
+.customerLogin p {
+  color: #00788a;
+}
+
+.customerLogin .input-group span {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #00788a;
+  border-right: none;
+  color: #00788a;
+}
+
+.customerLogin input {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #00788a;
+  border-left: none;
+  color: #00788a;
+}
+
+.customerLogin .form-check input {
+  border-left: 2px solid #00788a;
+}
+
+.customerLogin .form-check input:checked{
+    background-color: #00788a;
+    border: none;
+}
+
+.customerLogin .form-check label {
+    color: #00788a;
+}
+
+.customerLogin button {
+  width: 100%;
+  background-color: #00788a;
+  border: none;
+  color: #fff;
+}
+
+.customerLogin button:hover {
+    background-color: #01606e;
+    color: #fff;
+  }
+
+  
+.customerLogin .toRegister a{
+    color: #00788a;
+    font-weight: bolder;
+}
+

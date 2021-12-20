@@ -1,0 +1,33 @@
+.history .title {
+    color: #00BFC4;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.history .historyList .row {
+    border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.history .historyList img {
+    width: 70px;
+    height: 70px;
+}
+
+.history .historyList .date{
+    font-size: 13px;
+}
+
+.history .historyList .status{
+    color: #74DCDF;
+    font-size: 13px;
+}
+
+.history .historyList button {
+    border:none;
+    width: 90px;
+    height: 30px;
+    background-color: #00BFC4;
+    color: #fff;
+    font-size: 13px;
+}

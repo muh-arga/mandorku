@@ -1,0 +1,38 @@
+.homeService img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  align-items: center;
+  -webkit-filter: drop-shadow(0px 10px 13px rgba(149, 157, 165, 0.5));
+  filter: drop-shadow(0px 10px 13px rgba(149, 157, 165, 0.5));
+}
+
+.homeService .row {
+  width: 100%;
+}
+
+.homeService .col {
+  display: felx;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#services {
+  color: #00bfc4;
+  margin: 0 auto 10px;
+  font-weight: bolder;
+}
+
+.homeService h2 {
+  color: #00788a;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.homeService p,  .homeService h4{
+    color: #083038;
+}
+
+.homeService h4 {
+    font-weight: 500;
+}

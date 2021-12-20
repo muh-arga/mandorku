@@ -1,0 +1,117 @@
+.filter {
+  border-radius: 5%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.filter h5{
+    color: #00BFC4;
+}
+
+.filter button {
+  border: none;
+  background-color: #00BFC4;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.filter button:hover{
+  background-color: #00788a;
+  color: #fff;
+}
+
+.mandorList {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mandorList input{
+  border-radius: 25px;
+}
+
+.mandorList span.input-group-text{
+  border-radius: 25px;
+  background-color: #00BFC4;
+  color: #fff;
+}
+
+.mandorList .card {
+  border: none;
+  width: 100%;
+  height: 210px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.mandorList .card.row {
+  width: 100%;
+}
+
+.mandorList .card .image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.mandorList .card-body .card-title a {
+  color: #00788a;
+}
+
+.mandorList .card-body .card-text {
+  color: #083038;
+}
+
+.mandorList .card-body .kategori {
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 10px;
+  padding: 1px 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mandorList .card-body .kategori a {
+  color: #00bfc4;
+  font-size: 10px;
+}
+
+.mandorList .card-body .address {
+  font-size: 12px;
+  font-weight: bold;
+  color: #083038;
+}
+
+.mandorList .card-body .info img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.mandorList .card-body .info span {
+  font-size: 12px;
+  color: #083038;
+}
+
+.mandorList .card-body .info span {
+  font-size: 12px;
+  color: #083038;
+}
+
+.mandorList .card-body .detail button {
+  background-color: #00bfc4;
+  border-radius: 5px;
+  width: 90px;
+  height: 25px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 50%;
+}
+
+.mandorList .card-body .salaryDetail h5 {
+  color: #00bfc4;
+}
+
+.mandorList .card-body .salaryDetail span {
+  color: #00788a;
+}

@@ -1,0 +1,46 @@
+.text {
+  margin: 20px auto 10px;
+  width: 1021px;
+  height: 581px;
+  padding: 20px 200px;
+  background-image: url("/img/hero-background.png");
+  background-size: cover;
+}
+
+.text h1 {
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-family: josefins, poppins, Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  background: -webkit-linear-gradient(#00788a, #74dcdf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text a {
+  color: #F8F5FF;
+  width: 150px;
+  height: 52px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #00BFC4;
+}
+
+.text button {
+  color: #F8F5FF;
+  width: 150px;
+  height: 52px;
+}
+
+.text a:hover {
+  background-color: #00788a;
+}
+
+.text a:hover button{
+  color: #F8F5FF;
+}
+
+
