@@ -37,7 +37,7 @@ Meteor.startup(() => {
       phone: "081340796948",
       moto: "",
       profile: "",
-      imgUrl: "/img/arga.jpg",
+      imgUrl: "/img/profile.png",
       created_at: new Date()
     })
   }
@@ -52,14 +52,14 @@ Meteor.startup(() => {
       password: hashPassword,
       address: "Enrekang, Sulawesi Selatan",
       phone: "081235980586",
-      imgUrl: "/img/anto.png",
+      imgUrl: "/img/profile.png",
       moto: "Professional  Mandor at Indonesia",
       profile: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias, ipsum nemo aliquam sequi sapiente! Magnam sit commodi laudantium, nostrum consequatur quasi reiciendis eaque, error eum nemo, odio temporibus eius! Nostrum molestiae quam dolor provident fuga est rerum? Reprehenderit omnis ratione neque doloremque, iure dolorum, perferendis optio officiis quo qui eos, saepe laborum veritatis. Sequi aut harum eligendi blanditiis ab.",
       salary: 50000,
       jobDone: 10,
       skills: ["Rumah", "Gedung"],
       Experiences: [],
-      rating: 4.9,
+      rating: 0,
       created_at: new Date
     })
   }

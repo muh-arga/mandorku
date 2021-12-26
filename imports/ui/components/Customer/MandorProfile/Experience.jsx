@@ -36,7 +36,7 @@ const MandorExperience = ({ mandor }) => {
             <div className="col d-flex flex-row justify-content-between">
               <h4>{experience.name}</h4>
             </div>
-            <h5>Posisi</h5>
+            <h5>{experience.position}</h5>
             <span>
               {formatDate(experience.start)} - {formatDate(experience.end)}
             </span>

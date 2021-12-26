@@ -13,9 +13,9 @@ import MandorExperience from "../components/Customer/MandorProfile/Experience";
 import MandorReview from "../components/Customer/MandorProfile/Review";
 
 const CustomerMandorProfil = () => {
-  const mandorId = FlowRouter.getParam("id");
-  const { mandor, ready } = useTracker(() => {
-    const subscription = Meteor.subscribe('mandors')
+  let mandorId = FlowRouter.getParam("id");
+  let { mandor, ready } = useTracker(() => {
+    let subscription = Meteor.subscribe('mandors')
     return {
       mandor: Mandor.findOne({
         _id: mandorId,

@@ -326,7 +326,9 @@ const MandorExperience = ({ mandor }) => {
                 </button>
               </div>
             </div>
-            <h5>Posisi</h5>
+            <h5>
+              {experience.position}
+            </h5>
             <span>
               {formatDate(experience.start)} - {formatDate(experience.end)}
             </span>
