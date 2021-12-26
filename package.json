@@ -22,7 +22,6 @@
     "react-file-base64": "^1.0.3",
     "react-mounter": "^1.2.0",
     "react-router-dom": "^6.0.2",
-    "simpl-schema": "^1.12.0",
     "stars-rating": "^1.1.0"
   },
   "meteor": {
