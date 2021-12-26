@@ -18,7 +18,7 @@ const RegsiterMandor = () => {
     salary: 0,
     jobDone: 0,
     skills: [],
-    Expereiences: [],
+    Experiences: [],
     rating: 0,
     created_at: new Date(),
   });

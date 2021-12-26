@@ -29,6 +29,7 @@ const MandorReview = ({ mandor }) => {
   let rate = 0;
   let total;
   reviews.map((review, index) => {
+    if(review.rate >= 0)
     rate += review.rate;
     total = index;
   });

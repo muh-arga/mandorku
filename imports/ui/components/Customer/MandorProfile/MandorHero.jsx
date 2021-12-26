@@ -71,7 +71,7 @@ const MandorHero = ({ mandor }) => {
             onSubmit={submitHandler}
           >
             <div className="col-12 p-4 d-flex justify-content-between align-items-start">
-              <h5 className="header m-0">Review Proyek</h5>
+              <h5 className="header m-0">Buat Penawaran</h5>
               <button onClick={closeForm}>
                 <i className="fas fa-times"></i>
               </button>
@@ -168,7 +168,6 @@ const MandorHero = ({ mandor }) => {
             />
             <div className="contact mt-2 d-flex flex-column">
               <div className="salary">
-                <i className="fas da-salary"></i>
                 <span>Rp{mandor.salary} IDR/hari</span>
               </div>
               <div className="address mt-2">
